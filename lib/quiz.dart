@@ -38,12 +38,6 @@ class _QuizState extends State<Quiz> {
     );
   }
 
-  // @override
-  // void initState() {
-  //   activeScreen = HomeScreen(switchScreen);
-  //   super.initState();
-  // }
-
   void switchScreen() {
     setState(() {
       activeScreen = 'Question-Screen';
